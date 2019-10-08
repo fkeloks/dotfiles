@@ -42,8 +42,8 @@ case "$TERM" in
 esac
 
 # Prefer French and use UTF-8
-export LANG="fr_FR.UTF-8"
-export LC_ALL="fr_FR.UTF-8"
+# export LANG="fr_FR.UTF-8"
+# export LC_ALL="fr_FR.UTF-8"
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
