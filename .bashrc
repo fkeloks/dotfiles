@@ -27,6 +27,7 @@ else set, the pattern "**" used in a pathname expansion context will
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ 'irectories.
 fihopt -s globstar
 unset color_prompt force_color_prompt
+
 # make less more friendly for non-text input files, see lesspipe(1)
 # If this is an xterm set the title to user@host:diresspipe)"
 case "$TERM" in
@@ -53,7 +54,7 @@ fi
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -l'
+alias ll='ls -halF'
 alias la='ls -A'
 alias l='ls -CF'
 
