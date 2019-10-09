@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -rp "Voulez-vous créer un utilisateur ? [Y/n] " response;
+read -rp "Voulez-vous creer un utilisateur ? [Y/n] " response;
 if [[ ! "$response" =~ ^([nN][oO]|[nN])+$ ]]; then
     read -rp "Nom de l'utilisateur : " username;
     adduser --ingroup=sudo $username;
