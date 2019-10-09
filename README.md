@@ -3,8 +3,7 @@ My personal dotfiles
 
 ## Docker
 ```bash
-apt update && apt install -y sudo man wget nano less;
-adduser --ingroup=sudo florian;
+apt update -qqq && apt install -y -qqq wgetwget -q https://raw.githubusercontent.com/fkeloks/dotfiles/master/install.sh && bash install.sh;
 ```
 
 ## BashRc
